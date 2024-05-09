@@ -1,0 +1,213 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1829 ]
+[d frameptr 6 ]
+"62 C:\Program Files\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"16 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\main.c
+[v _writeDigit writeDigit `(v  1 e 0 0 ]
+"33
+[v _displayNumber displayNumber `(v  1 e 0 0 ]
+"62
+[v _main main `(v  1 e 0 0 ]
+"52 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 0 0 ]
+"70 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+"77
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 0 0 ]
+"50 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 0 0 ]
+"17 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 0 0 ]
+"54
+[v _TMR0_ISR TMR0_ISR `(v  1 e 0 0 ]
+[s S91 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"360 C:\Program Files\Microchip\xc8\v1.34\include\pic16f1829.h
+[s S100 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S105 . 1 `S91 1 . 1 0 `S100 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES105  1 e 1 @11 ]
+"737
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1152
+[v _TRISA TRISA `VEuc  1 e 1 @140 ]
+"1201
+[v _TRISB TRISB `VEuc  1 e 1 @141 ]
+"1239
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+"1475
+[v _OPTION_REG OPTION_REG `VEuc  1 e 1 @149 ]
+[s S31 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1498
+[s S40 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S45 . 1 `S31 1 . 1 0 `S40 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES45  1 e 1 @149 ]
+"1665
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @152 ]
+"1722
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1793
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @154 ]
+"2048
+[v _LATA LATA `VEuc  1 e 1 @268 ]
+"2092
+[v _LATB LATB `VEuc  1 e 1 @269 ]
+"2130
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S166 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2147
+[u S175 . 1 `S166 1 . 1 0 ]
+[v _LATCbits LATCbits `VES175  1 e 1 @270 ]
+"2801
+[v _APFCON0 APFCON0 `VEuc  1 e 1 @285 ]
+"2834
+[v _APFCON1 APFCON1 `VEuc  1 e 1 @286 ]
+"2883
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"2929
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"2964
+[v _ANSELC ANSELC `VEuc  1 e 1 @398 ]
+"3463
+[v _WPUA WPUA `VEuc  1 e 1 @524 ]
+"3520
+[v _WPUB WPUB `VEuc  1 e 1 @525 ]
+"3567
+[v _WPUC WPUC `VEuc  1 e 1 @526 ]
+"7362
+[v _LATC5 LATC5 `VEb  1 e 0 @2165 ]
+"7364
+[v _LATC6 LATC6 `VEb  1 e 0 @2166 ]
+"7366
+[v _LATC7 LATC7 `VEb  1 e 0 @2167 ]
+"9 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\main.c
+[v _number number `ui  1 e 2 0 ]
+"10
+[v _d1 d1 `uc  1 e 1 0 ]
+[v _d2 d2 `uc  1 e 1 0 ]
+[v _d3 d3 `uc  1 e 1 0 ]
+[v _d4 d4 `uc  1 e 1 0 ]
+"11
+[v _Digit Digit `[10]uc  1 e 10 0 ]
+"12
+[v _counter counter `ui  1 e 2 0 ]
+"15 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/tmr0.c
+[v _timer0ReloadVal timer0ReloadVal `VEuc  1 e 1 0 ]
+"62 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\main.c
+[v _main main `(v  1 e 0 0 ]
+{
+"85
+} 0
+"33
+[v _displayNumber displayNumber `(v  1 e 0 0 ]
+{
+[v displayNumber@number1 number1 `ui  1 p 2 9 ]
+"60
+} 0
+"16
+[v _writeDigit writeDigit `(v  1 e 0 0 ]
+{
+[v writeDigit@digit digit `uc  1 a 1 wreg ]
+"17
+[v writeDigit@i i `uc  1 a 1 3 ]
+"16
+[v writeDigit@digit digit `uc  1 a 1 wreg ]
+"18
+[v writeDigit@digit digit `uc  1 a 1 2 ]
+"31
+} 0
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 6 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 1 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 3 ]
+"26
+} 0
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 6 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 8 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 1 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 3 ]
+"31
+} 0
+"70 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 0 0 ]
+{
+"75
+} 0
+"17 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 0 0 ]
+{
+"35
+} 0
+"50 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 0 0 ]
+{
+"74
+} 0
+"77 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 0 0 ]
+{
+"87
+} 0
+"52 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 0 0 ]
+{
+"63
+} 0
+"54 C:\Users\stajyer.elektronik\Desktop\3 mayýs.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 0 0 ]
+{
+"62
+} 0

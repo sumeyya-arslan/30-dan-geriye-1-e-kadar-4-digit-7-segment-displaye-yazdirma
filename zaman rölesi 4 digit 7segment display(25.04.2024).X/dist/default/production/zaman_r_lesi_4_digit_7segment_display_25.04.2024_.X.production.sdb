@@ -1,0 +1,135 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1829 ]
+[d frameptr 6 ]
+"62 C:\Program Files\Microchip\xc8\v1.34\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v1.34\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"25 C:\Users\stajyer.elektronik\Desktop\zaman rölesi 4 digit 7segment display(25.04.2024).X\display.c
+[v _writeDigit writeDigit `(v  1 e 0 0 ]
+"42
+[v _displayNumber displayNumber `(v  1 e 0 0 ]
+"71
+[v _TIMER_Interrupt TIMER_Interrupt `II(v  1 e 0 0 ]
+"79
+[v _main main `(v  1 e 0 0 ]
+"737 C:\Program Files\Microchip\xc8\v1.34\include\pic16f1829.h
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"1239
+[v _TRISC TRISC `VEuc  1 e 1 @142 ]
+[s S51 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1498
+[s S60 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S65 . 1 `S51 1 . 1 0 `S60 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES65  1 e 1 @149 ]
+"2130
+[v _LATC LATC `VEuc  1 e 1 @270 ]
+[s S22 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"2147
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _LATCbits LATCbits `VES31  1 e 1 @270 ]
+"7208
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"7362
+[v _LATC5 LATC5 `VEb  1 e 0 @2165 ]
+"7364
+[v _LATC6 LATC6 `VEb  1 e 0 @2166 ]
+"7366
+[v _LATC7 LATC7 `VEb  1 e 0 @2167 ]
+"7482
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"7720
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"7722
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"21 C:\Users\stajyer.elektronik\Desktop\zaman rölesi 4 digit 7segment display(25.04.2024).X\display.c
+[v _d1 d1 `uc  1 e 1 0 ]
+[v _d2 d2 `uc  1 e 1 0 ]
+[v _d3 d3 `uc  1 e 1 0 ]
+[v _d4 d4 `uc  1 e 1 0 ]
+"22
+[v _Digit Digit `[10]uc  1 e 10 0 ]
+"23
+[v _counter counter `ui  1 e 2 0 ]
+"24
+[v _number number `ui  1 e 2 0 ]
+"79
+[v _main main `(v  1 e 0 0 ]
+{
+"114
+} 0
+"42
+[v _displayNumber displayNumber `(v  1 e 0 0 ]
+{
+[v displayNumber@number number `ui  1 p 2 9 ]
+"69
+} 0
+"25
+[v _writeDigit writeDigit `(v  1 e 0 0 ]
+{
+[v writeDigit@digit digit `uc  1 a 1 wreg ]
+"26
+[v writeDigit@i i `uc  1 a 1 3 ]
+"25
+[v writeDigit@digit digit `uc  1 a 1 wreg ]
+"27
+[v writeDigit@digit digit `uc  1 a 1 2 ]
+"40
+} 0
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 6 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 1 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 3 ]
+"26
+} 0
+"6 C:\Program Files\Microchip\xc8\v1.34\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 6 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 8 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 1 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 3 ]
+"31
+} 0
+"71 C:\Users\stajyer.elektronik\Desktop\zaman rölesi 4 digit 7segment display(25.04.2024).X\display.c
+[v _TIMER_Interrupt TIMER_Interrupt `II(v  1 e 0 0 ]
+{
+"78
+} 0
